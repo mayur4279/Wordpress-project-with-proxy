@@ -1,0 +1,2 @@
+# Problem statemant:-
+The problem statement requires deploying a sample WordPress website, protecting it with a Nginx reverse proxy, and allowing admin login from a specific IP address only.Additionally, the candidate must enable log rotation, write a script to analyze Nginx logs, and provide a report.They must also automate the deployment using either cloud infrastructure automation technology or containers
