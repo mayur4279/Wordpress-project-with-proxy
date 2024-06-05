@@ -78,9 +78,10 @@ The problem statement requires deploying a sample WordPress website, protecting 
     ```
 13. Next, update the database name, user, and password
     <br/>   
-    <img src="https://github.com/mayur4279/Projects/assets/73772313/5bdde6ef-259d-42a3-8f89-9083df340a38" alt="Image" width="600">
+    <img src="https://github.com/mayur4279/Wordpress-project-with-proxy/assets/73772313/4da19c4e-017a-4a18-a251-ba0ccb268fdf" alt="Image" width="600">
     <br/>
-    
+
+
 15. Now Save and close The file
     <br/>
 16. Setup  Wordpress <br/>
@@ -93,9 +94,10 @@ The problem statement requires deploying a sample WordPress website, protecting 
 18. Successfully installed the wordpress on  ubuntu  server
     <br/>
     
-    <img src="https://github.com/mayur4279/Projects/assets/73772313/13ffbfff-cbf0-4a56-83f2-7fa69e92364d" alt="Image" width="600">
+    <img src="https://github.com/mayur4279/Wordpress-project-with-proxy/assets/73772313/fcacb5ac-9f18-48bb-b6d1-91daac2baaa8" alt="Image" width="600">
     
     <br/>
+
 
 19. If we want  to  access our website using only  ip-address enter below commands 
     ```
@@ -105,7 +107,7 @@ The problem statement requires deploying a sample WordPress website, protecting 
     ```
 20. Successfully  accessed website using  only ip address  
     <br/>
-    <img src="https://github.com/mayur4279/Projects/assets/73772313/34d39594-ba9b-40a8-a6eb-0b2811ffbb11" alt="Image" width="600">
+    <img src="https://github.com/mayur4279/Wordpress-project-with-proxy/assets/73772313/4fb7b8b5-6ed5-489d-8395-5d8c09e13318" alt="Image" width="600">
     <br/>
 
 ### Step-2 Reverse Proxy Setup Using Nginx
@@ -140,17 +142,17 @@ The problem statement requires deploying a sample WordPress website, protecting 
 
 5. Successfully accessed website using nginx proxy
    <br/>
-   <img src="https://github.com/mayur4279/Projects/assets/73772313/7ad40ca5-09f5-46a6-aacd-2c92817ffc73" alt="Image" width="600">
+   <img src="https://github.com/mayur4279/Wordpress-project-with-proxy/assets/73772313/5c65fdfe-b849-4a3c-adc7-7c1d07bb6fc5" alt="Image" width="600">
    <br/> 
 
 6. Through proxy Normal user cannot access the Admin login page **(wp-admin)**
    <br/>
    
-   <img src="https://github.com/mayur4279/Projects/assets/73772313/7716b16b-6f5a-4a0c-92e0-c48911d0d472" alt="Image" width="600">
+   <img src="https://github.com/mayur4279/Wordpress-project-with-proxy/assets/73772313/84acbf5f-f335-4c6c-9d2d-6251ea67ab40" alt="Image" width="600">
    
    <br/>
 
-   
+
 ### Step-3 Enabling Log Rotation 
 #### This configurtaion is done In proxy server (nginx) 
 1. Create log Rotation configuration file 
@@ -229,7 +231,7 @@ The problem statement requires deploying a sample WordPress website, protecting 
 1. Create seperate proxy instance for Admin access (used amazon ec2 linux )
    <br/>
    
-   <img src="https://github.com/mayur4279/Projects/assets/73772313/ec1fcc61-062c-4a73-901a-07808032b245" alt="Image" width="600">
+   <img src="https://github.com/mayur4279/Wordpress-project-with-proxy/assets/73772313/72443523-4d8f-4680-bec0-edf09a5ae612" alt="Image" width="600">
    
    <br/>
 
@@ -250,16 +252,18 @@ The problem statement requires deploying a sample WordPress website, protecting 
    ```
 5. Edit the security group **(Assign the public ip of Admin)**
    <br/>  
-   <img src="https://github.com/mayur4279/Projects/assets/73772313/b4ee9edd-9bfc-4177-a390-647f4fb6ed49" alt="Image" width="800">
+   <img src="https://github.com/mayur4279/Wordpress-project-with-proxy/assets/73772313/89d59a3e-52b4-48bd-ac86-40f6693e4c2" alt="Image" width="800">
    <br/>
+
 
 6. Now Only Admin can access the Wordpress login page
    <br/>
    
-   <img src="https://github.com/mayur4279/Projects/assets/73772313/97332cb2-f9f4-4a0b-a0d6-e38b95ee910a" alt="Image" width="700">
+   <img src="https://github.com/mayur4279/Wordpress-project-with-proxy/assets/73772313/4d0b7028-7a11-4f47-b423-e2c7ed3f056e" alt="Image" width="700">
    
    <br/>
-   
+
+
 
 ### Step-5 Security Tips
 - Create Private subnet For main wordpress instance instance (private subnet means we are not assigning the Internet Gateway (IGW) in Route Table )
@@ -269,14 +273,11 @@ The problem statement requires deploying a sample WordPress website, protecting 
 - Do Not Assign IGW in Private route table
 
    <br/>
-   <img src="https://github.com/mayur4279/Projects/assets/73772313/f7c242f0-879c-4a3e-9c98-2a4edc32e4e3" alt="Image" width="700">
+   <img src="https://github.com/mayur4279/Wordpress-project-with-proxy/assets/73772313/95ceaa7c-ac12-4c10-841f-99d957e2cadb" alt="Image" width="700">
    <br/>
    <br/>
-   <img src="https://github.com/mayur4279/Projects/assets/73772313/aa35602f-5cf3-4c04-9b19-baa15d2c84dc" alt="Image" width="700">   
+   <img src="https://github.com/mayur4279/Wordpress-project-with-proxy/assets/73772313/8303024e-cef2-40fa-8a87-a32beecf13f0" alt="Image" width="700">   
    <br/>
-
-
-
 
 
 
