@@ -11,7 +11,7 @@ spec:
   selector:
     app: wordpress
     tier: frontend
-  type: NodePort
+  type: ClusterIP
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -48,4 +48,3 @@ spec:
           ports:
             - containerPort: 80
               name: wordpress
-              
