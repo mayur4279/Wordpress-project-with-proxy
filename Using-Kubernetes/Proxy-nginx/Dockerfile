@@ -4,3 +4,5 @@ ADD https://github.com/mayur4279/Wordpress-project-with-proxy/raw/main/Using-Kub
 
 EXPOSE 80   
 
+#  log rotation script  
+
