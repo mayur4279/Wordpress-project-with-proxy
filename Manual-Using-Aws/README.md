@@ -252,8 +252,9 @@ The problem statement requires deploying a sample WordPress website, protecting 
    ```
 5. Edit the security group **(Assign the public ip of Admin)**
    <br/>  
-   <img src="https://github.com/mayur4279/Wordpress-project-with-proxy/assets/73772313/89d59a3e-52b4-48bd-ac86-40f6693e4c2" alt="Image" width="800">
+   <img src="https://github.com/mayur4279/Wordpress-project-with-proxy/assets/73772313/75c1791e-84ef-45a9-8d1d-b8fbcefeb3c5" alt="Image" width="800">
    <br/>
+
 
 
 6. Now Only Admin can access the Wordpress login page
